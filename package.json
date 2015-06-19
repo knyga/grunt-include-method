@@ -1,0 +1,33 @@
+{
+  "name": "grunt-include-method",
+  "version": "0.0.1",
+  "description": "Grunt task for simple inclusion of the file content ",
+  "main": "tasks/includeMethod.js",
+  "scripts": {
+    "test": "grunt && mocha -R spec --timeout 5000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/knyga/grunt-include-method.git"
+  },
+  "keywords": [
+    "gruntplugin",
+    "grunt",
+    "node-include-method",
+    "include",
+    "inject",
+    "inject-method",
+    "knyga"
+  ],
+  "author": "Oleksandr Knyga <oleksandrknyga@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/knyga/grunt-include-method/issues"
+  },
+  "homepage": "https://github.com/knyga/grunt-include-method",
+  "dependencies": {
+    "async": "^1.2.1",
+    "lodash": "^3.9.3",
+    "node-include-method": "0.0.2"
+  }
+}
