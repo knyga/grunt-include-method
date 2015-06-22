@@ -28,6 +28,6 @@
   "dependencies": {
     "async": "^1.2.1",
     "lodash": "^3.9.3",
-    "node-include-method": "0.0.2"
+    "node-include-method": "~0.0.3"
   }
 }

@@ -6,8 +6,9 @@ module.exports = function (grunt) {
                 basePath: './src',
                 escapeWrap: true,
                 name: '__injectTemplate',
-                src: './src/code/*.js',
-                dest: './dist',
+                cwd: './src/code/',
+                src: '*.js',
+                dest: './dist/',
                 minify: true,
                 minifyOptions: {
                     removeComments: true,
