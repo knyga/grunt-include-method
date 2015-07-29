@@ -1,6 +1,6 @@
 {
   "name": "grunt-include-method",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Grunt task for simple inclusion of the file content ",
   "main": "tasks/includeMethod.js",
   "scripts": {
@@ -28,6 +28,6 @@
   "dependencies": {
     "async": "^1.2.1",
     "lodash": "^3.9.3",
-    "node-include-method": "~0.0.4"
+    "node-include-method": "~0.0.6"
   }
 }
